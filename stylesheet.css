@@ -1,0 +1,129 @@
+body {
+    background-color: #D9EAD3;
+    color: #980000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Header section  */
+.top-header {
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top-header div,
+.top-header header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Video section */
+.trailer-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.video-div {
+    width: 85%;
+    height: 100%;
+    border: 3px solid black;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.video-div video {
+    width: 80%;
+    height: auto;
+}
+/* About the game section */
+.about-the-game-section {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* About us section */
+.about-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2em 0;
+}
+.about-us-section p {
+    font-size: 1.5em;
+}
+.about-the-game-section p {
+
+    font-size: 2em;
+    font-style: bold;
+}
+.about-the-game-section h1 {
+    
+    font-size: 4em;
+}
+.top-two-about-us,
+.bottom-two-about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+
+/* .top-left-about-us,
+.top-right,
+.bottom-left,
+.bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+} */
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    
+    /* Border and shadow */
+    border: 2px solid black;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 1.5em;
+    box-sizing: border-box;
+}
+
+.about-card img {
+    max-width: 100%;
+    height: auto;
+}
